@@ -66,11 +66,11 @@ A platform that allows users spin up a basic website - allow as much customizati
   
  ## Process  
   - Product Designers
-     -
+     - Product designers defines product specifications, creating digital or print drawings and designing fully-functional for the products, To have good user interface, we control the use of different color flows and shapes to create a unique product.
   - Frontend
-     -
+     - The front-end is the part an end-user sees in their browsers, such as blog posts, templates among others. This project used standard markup languages called HTML,CSS stylesheet language, and JavaScript.
   - Backend
-     -
+     - The backend refers to all the things that go on behind the scenes. The backend also gave life to the website, by making the website function well.
   
 ### Language 
   
