@@ -55,13 +55,10 @@ A platform that allows users spin up a basic website - allow as much customizati
  ![](./) 
   
  ### Links 
-- Live Site URL: [live site Coming soon.](https://google.com) 
+- Live Site URL: [live site is coming soon.](https://google.com) 
   
  ## Process  
-  
-The team had a brainstorming session, where we came up with the name for the project. The graphics designers went ahead and came up with logo designs until one was finally decided on. They also came up with the colors, fonts, and icons for the project. 
-- The developers provided the data schema and documentation.
-(project is currently ongoing and the process will be updated regularly)
+  - 
   
 ### Technology 
   
