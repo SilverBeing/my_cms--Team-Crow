@@ -17,11 +17,14 @@ A platform that allows users spin up basic website
   
  ## Overview 
   
- ### Documentation 
-  - CROW  offers an all-in-one content management system, or CMS for bloggers, product designers and developers. A CROW website is free and it includes professionally designed layouts, 24/7 support, and access to our user-friendly platform for creating beautiful websites.
-We also offer tools for creating a portfolio, blogs and professional websites. All of these are available as standalone features or as part of the CROW SITE
+ ### Documentation
+ 
+  - CROW  offers an all-in-one content management system, or CMS for bloggers, product designers and developers. A CROW website is free and it includes professionally designed layouts, 24/7 support, and access to our user-friendly platform for creating beautiful websites.We also offer tools for creating a portfolio, blogs and professional websites. All of these are available as standalone features or as part of the CROW SITE.
+     - First Steps
+          - Every CROW site begins on a free subscription.
+          - If you are just visiting us at CROW, there is a possibility for you to set up a website. You click the Get Started button on the homepage and then fill in some information and immediately you have a website designed for you. You also have access to preview the templates on the website. To have access to editing these beautifully curated templates you would have to join CROW by registering to edit template and also create a custom website for free.  Click [here](https://docs.google.com/document/d/1bAC8SA4oRWiUVSE1V6M7vfbzWTZvqheq-qBEUF9HYHM/edit) to read more
 
- Click [here](https://docs.google.com/document/d/1bAC8SA4oRWiUVSE1V6M7vfbzWTZvqheq-qBEUF9HYHM/edit) to read more
+
   
  ### About 
   
