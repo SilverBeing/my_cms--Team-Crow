@@ -58,7 +58,12 @@ A platform that allows users spin up a basic website - allow as much customizati
 - Live Site URL: [live site is coming soon.](https://google.com) 
   
  ## Process  
-  - 
+  - Product Designers
+     -
+  - Frontend
+     -
+  - Backend
+     -
   
 ### Language 
   
