@@ -73,12 +73,12 @@ A platform that allows users spin up a basic website - allow as much customizati
   
 ### Resources 
   
-- [GrapeJs]([https://www.w3schools.com](https://grapesjs.com/)
-- GrapesJS is an open-source, multi-purpose, Web Builder Framework which combines different tools and features with the goal to help you (or users of your application) to build HTML templates without any knowledge of coding.It's a perfect solution to replace the common WYSIWYG editors, which are good for content editing but inappropriate for creating HTML structures. You can see it in action with the official demos, but using its API you're able to build your own editors. 
+- [GrapeJs](https://grapesjs.com/)
+    - GrapesJS is an open-source, multi-purpose, Web Builder Framework which combines different tools and features with the goal to help you (or users of your application) to build HTML templates without any knowledge of coding.It's a perfect solution to replace the common WYSIWYG editors, which are good for content editing but inappropriate for creating HTML structures. You can see it in action with the official demos, but using its API you're able to build your own editors. 
 - [Laravel](https://laravel.com/) 
-- Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.
+     - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.
 - [YouTube](https://www.youtube.com)
-- An Open Resources for all.
+     - An Open Resources for all.
   
 ## Contributors  
  ` Coming Soon...`
