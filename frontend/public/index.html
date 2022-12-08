@@ -9,6 +9,12 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -23,20 +29,136 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React Redux App</title>
+    <title>CROW | LANDING PAGE</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!--CROW NAVIGATION BAR-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-3">
+        <a class="navbar-brand" href="#">CROW</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Products</a>
+            </li>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Documentation</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <div>
+            <button type="button" class="btn btn-outline-success">Login</button>
+            <button type="submit" class="btn btn-success">Sign up</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HOME BOARD -->
+
+    <section>
+      <div style="background-color: #bdd0bb; border-radius: 0px">
+        <div
+          class="container text-center justify-content-center align-items-center py-5"
+        >
+          <h1
+            class="m-auto"
+            style="width: 820px; height: 180px; font-weight: bold"
+          >
+            Customize build and launch your website easily for efficient
+            business and personal growth
+          </h1>
+          <p class="m-auto" style="width: 880px; height: 80px">
+            We help developers and writers create and customize scalable
+            websites faster and easier using our unique templates according to
+            your preference.We also give you the opportunity to get a website
+            for free
+          </p>
+
+          <div class="mt-4">
+            <a href="" class="btn btn-outline-success">Browse templates</a>
+            <a href="" class="btn btn-success">Get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR CLIENT -->
+    <section>
+      <div class="container py-5">
+        <div class="d-flex justify-content-center">
+          <img src="#" alt="HNG" />
+          <img src="#" alt="ZURI" />
+          <img src="#" alt="PAYONEER" />
+          <img src="#" alt="HOTELS.NG" />
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-sm">
+            <img src="#" alt="About-img" />
+          </div>
+
+          <div class="col-sm text-start">
+            <h2>About Us</h2>
+            <p class="font-weight-bold">
+              Crows is a content mananagement Platform that helps designers,
+              developers and content creators build websites to showcase their
+              work and portfolio. this helps them get connected to their target
+              audience. Crow lets youstart, grow, and manage your business,
+              portfolio and pesrsonal growth.
+            </p>
+            <a href="" class="btn btn-success">Get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  HOW IT WORKS -->
+
+    <section>
+      <div class="container py-5">
+        <h2 class="text-center">How it works</h2>
+
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
