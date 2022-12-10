@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa7283cb56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- sidebar start -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white position-fixed">
+
+
+        <div class="sidebar position-sticky">
+            <div class="list_item">
+                <a href="dashboard.html" class=" list-group-item list-group-item-action py-2 ripple ">
+                    <i class="fa-solid fa-house "></i> <span class="menu_listing">Home</span>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-solid fa-briefcase"></i> <span class="menu_listing">Business</span>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-brands fa-blogger"></i></i> <span class="menu_listing">Blog</span>
+                </a>
+                <a href="portfolio.html" class=" fw-bold list-group-item list-group-item-action py-2 ripple active">
+                    <i class="fa-sharp fa-solid fa-briefcase"></i> <span class="menu_listing">Portfolio</span>
+                </a>
+                <a href="Insights.html" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-solid fa-chart-line"></i> <span class="menu_listing">Insights</span>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-solid fa-layer-group"></i><span class="menu_listing">My Website</span>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-solid fa-user-tie"></i> <span class="menu_listing">Accounts</span>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa-solid fa-gear"></i></i> <span class="menu_listing">Settings</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- sidebar end -->
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+                aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Brand -->
+            <a class="navbar-brand logo" href="#">
+                <img src="assets/images/logo-dark.png" height="50" alt="CROW Logo" />
+                <h2 class="fw-bold ms_search">Portfolio</h2>
+            </a>
+            <!-- Search form -->
+            <form class="d-none d-md-flex input-group w-auto my-auto ms_search">
+                <input autocomplete="off" type="search" class="form-control rounded" placeholder='Search Templates'
+                    style="min-width: 225px;" />
+                <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+            </form>
+
+            <!-- Right links -->
+            <ul class="navbar-nav ms-auto d-flex flex-row">
+                <!-- Notification dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                    </a>
+                </li>
+                <!-- Avatar -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+                        id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/images/Frame-1.png" alt="avatar" class="rounded-circle avatar" height="22"
+                            alt="Avatar" loading="lazy" />
+                        <span class="fw-bold">Mirabel</span>
+                    </a>
+
+            </ul>
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main>
+        <div class="main_content">
+            <h2 class="all_temlates_heading">Choose portfolio template</h2>
+            <div class="create_content">
+                <a href="">
+                    <p>Customize your own Template</p>
+                </a>
+            </div>
+            <div class="create_content">
+                <h2 class="choose_template">Choose Templates</h2>
+
+            </div>
+
+
+
+
+            <div class="templates">
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-1.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-2.png" alt="">
+                </a>
+            </div>
+            <div class="templates">
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-3.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-4.png" alt="">
+                </a>
+            </div>
+            <div class="templates">
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-5.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-6.png" alt="">
+                </a>
+            </div>
+            <div class="templates">
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-7.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/images/portfolio-image-card-8.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+    <!--Main layout-->
+
+
+
+
+
+    <script src="./assets/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+
+</body>
+
+</html>
