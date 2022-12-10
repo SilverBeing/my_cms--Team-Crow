@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('user_role');
             $table->timestamp('user_dob')->nullable();
             $table->string('user_address');
+            $table->string('verification_code');
             $table->timestamps();
         });
     }
