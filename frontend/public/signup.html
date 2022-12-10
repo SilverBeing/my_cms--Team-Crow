@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page </title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+</head>
+<style>
+    body {
+    margin:0px;
+    padding:0px;
+    font-family: Rubik;
+    background-color:#ffffff;
+    box-sizing: border-box;
+}
+form
+ {border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    height: 100vh;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    padding: 20px 50px 20px 50px ;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 90px;
+    
+}
+label{
+    padding:5px;
+}
+h2{
+    text-align: center;
+}
+P{
+    text-align: center;
+    color:#585756;
+}
+strong{
+    padding: 5px;
+    margin:0 +20px;
+}
+.name{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.password{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.smp{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.email{
+  padding: 5px;
+    margin:0 +255px;
+    color:#585756;
+}
+.confirm{
+  padding: 5px;
+  margin:0 +257px;
+  color:#585756;
+}
+.add button{
+  padding: 5px;
+  margin:0 +290px;
+}
+.link{
+  padding: 5px;
+  margin:0 +185px;
+  color:#585756;
+}
+
+input[type=text], input[type=password] {
+  width: 42%;
+  padding: 15px;
+  margin: 0 25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button {
+  background-color:white;
+  color:black;
+  padding: 5px 0px;
+  margin: 0 5px;
+  border: 1px solid #2A6625;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+ 
+}
+.linkbtn{
+  
+  color:black;
+  padding: 5px 0px;
+  margin: 0px 0px 0px +385px;
+  border: 1.5px solid #2A6625;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 12%;
+}
+a{
+  color: #2A6625;
+  text-decoration: none;
+
+}
+  
+button:hover {
+  opacity: 0.8;
+}
+label {
+    margin-bottom: 5px;
+    display:flexbox;
+  }
+ .emptybtn{
+  background-color:white;
+  padding: 5px 0px;
+  margin:0;
+  margin-left:+200px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 3%;
+  height:3vh;
+ 
+  }
+  .createbtn{
+    background-color:#2A6625;
+    color:white;
+    margin:0;
+    margin-left:+300px;
+    border: 1px solid #2A6625;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 15%;  
+    height: 5vh;
+    font-size:smaller;
+    
+    
+  }
+  button:hover{
+    opacity:0.8;
+  }
+  h5{
+    margin:0;
+    margin-left:+250px;
+    color:#585756;
+  }
+ 
+</style>
+<body>
+   
+    <div class="container">
+        <form action="Login.html" method="post">
+     <h2>Create an account</h2>
+		<p>Become a member and enjoy exclusive offers</p>
+
+	 <small class="name">Username</small>
+     <small class="email">Email</small><br>
+		<input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+	
+	 <small class="password">Password</small>
+     <small class="confirm">Confirm </small><br>
+		<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <input type="password" placeholder="Confirm Password" name="psw" id="psw" required><br><br>
+
+     <strong>Social Media Links</strong>
+     <button type="submit"  class="linkbtn">+ add link</button><br><br><br>
+
+        
+
+     <small class="smp"> Social Media Platform</small>
+     <small class="link"> Link</small><br>
+		<input type="text" placeholder=" Input Social Media Platform" name="Social Media Platform" id="Social Media Platform" required>
+        <input type="text" placeholder="e.g www.linkedin.com/myusername" name="Link" id="Link" required><br><br><br>
+
+     <div> <input type="checkbox" checked="checked" class="emptybtn"></button>
+        By signing up, i agree to the<a href="./forgetpassword.html"> Terms & Conditions </a><br></div><br>
+
+     <button type="submit"  class="createbtn"><a href="signin.html"></a>Create Account</button><br><br>
+        <h5>Already have an account? <a href="signin.html">Log In </a></h5>
+        
+		</form>
+	</div>
+</body>
+</html>
