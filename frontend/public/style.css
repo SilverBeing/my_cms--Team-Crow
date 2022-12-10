@@ -1,0 +1,9 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+    outline: #2A6625;
+    background-color: #2A6625;
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    border: 1px solid #2A6625;
+}
