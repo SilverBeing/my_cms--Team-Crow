@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('user_id');
             $table->string('user_name');
             $table->string('user_email');
-            $table->string('user_role');
+            $table->string('user_role')->nullable();;
             $table->timestamp('user_dob')->nullable();
             $table->string('user_address');
             $table->string('verification_code');
