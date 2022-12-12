@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <style>
+        *{
+        margin: 0;
+        padding:5px 0;
+        
+        box-sizing: border-box;
+        font-family: Rubik;
+     }
+     
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+ 
+ 
+}
+
+li {
+  float: right;
+ 
+}
+
+li a {
+  display: block;
+ 
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  margin: auto;
+}
+
+li a:hover:not(.active) {
+  color:#2A6625;
+}
+.logo{
+    width:230px;
+    height:130px;
+    margin:15px 0px 5px  0px;
+    padding: 0;
+    border:none;
+   
+    
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 50px;
+    background-color: #ffffff;
+    padding:0px 5%;
+}
+nav ul{
+    display:contents;
+}
+.toggle{
+    display:none;
+}
+nav ul li a{
+    margin:30px;
+    font-family:Rubik;
+    color: #585756;
+    font-size:15px;
+    font-weight:700;
+}
+.Login{
+    width: 80px;
+    height:35px;
+    border:1px solid #2A6625;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.signup{
+    width:80px;
+    height:35px;
+    background-color: #2A6625;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor:pointer;
+    border:1px solid #2A6625;
+
+}
+
+.button{
+    margin: auto;
+   
+}
+input[type=text] {
+  width: 35%;
+  padding: 15px;
+  margin: 0 5px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#about{
+    margin:0 350px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+
+}
+#site{
+    margin:0 50px
+}
+.abt{
+    margin:0 350px;  
+}
+#contact{
+    margin: 0 50px;
+}
+.titles1{
+  padding: 5px;
+    margin:0 +5px;
+    color:#585756;
+}
+.duties1{
+  padding: 5px;
+    margin:0 +370px;
+    color:#585756;
+}
+.upload{
+    padding: 5px;
+    margin:0 +365px;
+    color:#585756; 
+}
+.titles2{
+  padding: 5px;
+    margin:0 +5px;
+    color:#585756;
+}
+.duties2{
+  padding: 5px;
+    margin:0 +255px;
+    color:#585756;
+}
+.confirm{
+  padding: 5px;
+  margin:0 +257px;
+  color:#585756;
+}
+#service{
+    margin:0px 50px;
+}
+#works{
+    margin:0 50px
+}
+p{
+    margin:0 50px  
+}
+.linkbtn1{
+    margin: 0px 0px 0px +740px;
+    width: 8%;
+    color:black;
+    background-color: white;
+    border: 1.5px solid #2A6626;
+    
+}
+.linkbtn2{
+    margin: 0px 0px 0px +740px;
+    width:8%;
+    color:black;
+    background-color: white;
+    border: 1.5px solid #2A6626;
+    
+}
+#image{
+    width:auto;
+    background-color: white;
+    
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img class="logo" src="./image/logo_zuri-removebg-preview.png"> 
+        </div>
+      
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Documentation</a></li>
+      <li><a href="#">About Us</a></li> 
+    </ul>
+    <div class="button">
+        <button type="button" class="Login">Edit</button>
+        <button type="button" class="signup">Preview</button>
+    </nav><br><br><br>
+    <div>
+        <div id="site">
+            <label for="name">Name your Site</label><br>
+            <input type="text" placeholder="Enter name" name="name" id="name" required><br><br>
+            <label for="image">Profile picture</label><br>
+            <input id="image" type="file" name="profile_photo" placeholder="Photo"  required="" capture>
+         <br><br>
+    <label for="name">Your title</label><br>
+    <input type="text" placeholder="Enter name" name="name" id="name" required><br><br>
+    
+    <label for="About"><b class="abt">ABOUT YOU</b></label><br>
+    <textarea rows="4" cols="50" name="comment" id="about">
+        give a brief summary of who you are, and the work experience that will intrigue your potential clients."...</textarea>
+            <br><br><br>
+             
+               
+     </div>
+     <p>YOUR SERVICES</p>
+    <div id=service>
+     <small class="titles1">Titles</small>
+     <small class="duties1">Duties</small><br>
+		<input type="text" placeholder="Product designer" name="name" id="titles2" required>
+        <input type="text" placeholder="I create and design Products" name="email" id="duties2" required><br><br>
+        <button type="submit"  class="linkbtn1">+ add link</button><br><br>
+        </div>
+	<p>YOUR WORKS</p>
+    <div id="works">
+	 <small class="titles2">Titles</small>
+     <small class="upload">Upload file </small><br>
+		<input type="text" placeholder="Product designer" name="psw" id="psw" required>
+        
+            <input id="image" type="file" name="profile_photo" placeholder="Photo"  required="" capture><br><br>
+        <button type="submit"  class="linkbtn2">+ add link</button><br><br>
+    </div>
+        <div id="contact">
+            <p><b>CONTACT</p></b>
+            <form>
+                <label for="email">Email</label><br>
+                <input type="text" placeholder="marydonald@gmail.com" name="email" id="email" required><br><br>
+                <label for="facebook">Facebook</label><br>
+                <input type="text" placeholder="https://facebook.com/marydonald" name="email" id="email" required><br><br>
+                <label for="email">Instagram</label><br>
+                <input type="text" placeholder="https://instagram.com/marydonald" name="email" id="email" required><br><br>
+                <label for="twitter">Twitter</label><br>
+                <input type="text" placeholder="https://twitter.com/marydonald" name="email" id="email" required><br><br>
+                <label for="text">Phone number</label><br>
+                <input type="text" placeholder="+2348678986743" name="email" id="email" required><br><br>
+
+            </form>
+        </div>
+
+</body>
+</html>
