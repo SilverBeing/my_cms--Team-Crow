@@ -3,6 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\login;
+use App\Http\Controllers\Api\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,8 +16,12 @@ use App\Http\Controllers\Api\login;
 |
 */
 
-Route::post('/authenticate', [login::class, 'authenticate']);
+// Route::post('/login', [login::class, 'loginUser']);
 
-Route::post('/registerUser', [login::class, 'registerUser'])->name('registerUser');
+// Route::post('/registeruser', [login::class, 'registerUser']);
+
+Route::post('/auth/register', [AuthController::class, 'createUser']);
+Route::post('/auth/login', [AuthController::class, 'loginUser']);
 
 
+// Route::apiResource('posts', PostController::class)->middleware('auth:sanctum');

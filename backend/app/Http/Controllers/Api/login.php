@@ -24,7 +24,7 @@ class login extends Controller
             'email' => 'required|email|unique:user_infos',
             'password' => 'required|min:5|max:15', 'user_password',
             'confirmpassword' => 'required|min:5|max:15',
-            
+
         ]);
 
         $user = new userInfo();
@@ -40,16 +40,16 @@ class login extends Controller
                 ]);
             }
         }
-        
-   
+
+
         $response = $user->save();
         if($response == true){
 
            return response()->json(['status'=>'success',
-            'message'=> 'login successful']);
+            'message'=> 'registration successful']);
         }else{
             return  response()->json(['status'=>'failed',
-            'message'=> 'login not successful']);
+            'message'=> 'registration not successful']);
         }
     }
      /**
@@ -61,25 +61,49 @@ class login extends Controller
     public function authenticate(Request $request)
     {
         $credentials = $request->validate([
-            'email' => ['required|email|unique:user_infos'],
-            'password' => ['required|min:5|max:15'],
+            'email' => 'required|email|unique:user_infos',
+            'password' => 'required|min:5|max:15',
         ]);
- 
+
+        // if (Auth::attempt($credentials)) {
+        //     $request->session()->regenerate();
+
+        //     return response()->json(['status'=>'success',
+        //     'message'=> 'login successful',
+        //     'data' => ['email' =>  $request->email, 'password' =>  $request->password],
+        // ]);
+        // }
+
+        // return  response()->json(['status'=>'failed',
+        // 'message'=> 'user not registered']);
+
+        // $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
- 
+            return response()->json(['status'=>'success',
+                 'message'=> 'login successful',
+                 'data' => ['email' =>  $request->email, 'password' =>  $request->password],
+            ]);
+        }
+
+        return  response()->json(['status'=>'failed',
+        'message'=> 'Login details are not valid']);
+
+    }
+
+
+    public function loginUser(Request $request) {
+        $request->validate([
+            'email' => 'required|email|unique:user_infos',
+            'password' => 'required',
+        ]);
+
+        $credentials = $request->only('email', 'password');
+        if (Auth::attempt($credentials)) {
             return response()->json(['status'=>'success',
             'message'=> 'login successful',
             'data' => ['email' =>  $request->email, 'password' =>  $request->password],
-        ]);
+       ]);
         }
-
-        return back()->withErrors([
-                'This email is not register',
-                ]);
- 
-       
     }
-
 
 }

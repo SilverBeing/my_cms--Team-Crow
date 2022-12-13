@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::table('roles', function (Blueprint $table) {
-            $table->renameColumn('id', 'role_id');
-            $table->renameColumn('title','role_title');
-            $table->renameColumn('description','role_description');
+            // $table->renameColumn('id', 'role_id');
+            // $table->renameColumn('title','role_title');
+            // $table->renameColumn('description','role_description');
         });
     }
 
