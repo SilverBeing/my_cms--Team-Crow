@@ -1,0 +1,133 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.section_title {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 120px;
+    position: absolute;
+    width: 295px;
+    height: 1024px;
+    left: 2px;
+    top: -3px;
+    background: #fff;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.9;
+}
+
+.menu_listing {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.ms_search {
+    margin-left: 150px;
+}
+
+.list_item {
+    padding-top: 100px;
+}
+
+.main_content {
+    background-color: #fbf9f6;
+    /* width: 1300px; */
+    height: 900px;
+
+}
+.add_header_box{
+    position: absolute;
+    width: 960px;
+    height: 200px;
+    left: 359px;
+    top: 128px;
+    border: 1px solid #2A6625;
+    border-radius: 88px 8px 8px 0px;
+}
+.header_text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C9C7C5;
+    position: absolute;
+    left: 830px;
+    top: 160px;
+}
+.header_profile_image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 140px;
+    border-radius: 150px;
+    border: 4px solid #EAF0E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+}
+.edit_profile_btn{
+    text-align: center;
+    background-color: #2A6625;;
+    color: #fff;
+    position: absolute;
+    width: 161px;
+    height: 48px;
+    left: 798px;
+    top: 250px;
+    border: none;
+}
+table{
+    position: absolute;
+    left: 270px;
+    top: 450px;
+    
+}
+table td{
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.border_bio{
+    /* border: 1px #B9B9B9 solid ; */
+}
+hr{
+    position: relative;
+    width: 960px;
+    left: 359px;
+    top: 440px;
+    border: 0.5px solid #B9B9B9;
+    margin-top: 42px;
+    
+}
+.hr_bottom{
+
+    position: absolute;
+    width: 960px;
+    left: 97px;
+    top: 392px;
+    border: 0.5px solid #B9B9B9;
+    margin-top: 42px;
+    z-index: 7;
+}
+.bi-toggle-on{
+    position: absolute;
+    right: 20px;
+    color: #2A6625;
+}
