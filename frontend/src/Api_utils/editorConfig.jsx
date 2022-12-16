@@ -2,7 +2,7 @@ import grapesjs from "grapesjs";
 import gjsBlockBasic from "grapesjs-blocks-basic";
 import $ from "jquery";
 
-import grapesjsPluginExport from "grapesjs-plugin-export";
+
 import grapesjsStyleBg from "grapesjs-style-bg";
 
 import {
@@ -49,10 +49,9 @@ const geditorConfig = (assets, pageId) => {
       styles: styles,
       scripts: scripts,
     },
-    plugins: [gjsBlockBasic, grapesjsPluginExport, grapesjsStyleBg],
+    plugins: [gjsBlockBasic, grapesjsStyleBg],
     pluginsOpts: {
       gjsBlockBasic: {},
-      grapesjsPluginExport: {},
       grapesjsStyleBg: {},
     },
   });
