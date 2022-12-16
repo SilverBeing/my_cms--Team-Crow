@@ -12,82 +12,78 @@ const Home = () => {
       <section>
         <div
           style={{ "background-color": "#bdd0bb", "border-radius": "0px" }}
-          class="mb-5"
+          className="mb-5 hero-page"
         >
-          <div class="container text-center justify-content-center align-items-center py-5">
+          <div className="container text-center justify-content-center align-items-center py-5">
             <h1
-              class="m-auto p-3"
+              className="m-auto p-3"
               style={{ "max-width": "820px", "font-weight": "bold" }}
             >
               Customize build and launch your website easily for efficient
               business and personal growth
             </h1>
-            <p class="m-auto p-3" style={{ "max-width": "880px" }}>
+            <p className="m-auto p-3" style={{ "max-width": "880px" }}>
               We help developers and writers create and customize scalable
               websites faster and easier using our unique templates according to
               your preference.We also give you the opportunity to get Link
               website for free
             </p>
 
-            <div class="mt-4">
-              <Link to="" class="btn btn-outline-success">
+            <div className="mt-4">
+              <Link to="/products" className="btn btn-outline-success">
                 Browse templates
               </Link>
-              <Link to="" class="btn btn-success">
-                Get started
+              <Link to="/createdemo" className="btn btn-success">
+                Get a Demo website
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <div class="container ">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
-          <div class="col">
+      <div className="container ">
+        <div className="row col-12 mx-auto w-100 client-heading-1">
+          <h2>Our Clients</h2>
+        </div>
+        <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 clients-container ">
+          <div className="col client-image">
             <img
               src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670569833/hn_ht6sxw.png"
               alt="HNG"
-              class="img-fluid ml-5"
-              style={{ "max-width": "150px", height: "50px" }}
             />
           </div>
 
-          <div class="col">
+          <div className="col client-image">
             <img
               src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567878/zuir_fmcowm.png"
               alt="ZURI"
-              class="img-fluid ml-5"
-              style={{ "max-width": "100px", height: "70px" }}
+              className="img-fluid ml-5"
             />
           </div>
 
-          <div class="col">
+          <div className="col client-image">
             <img
               src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567878/payoneer_uatcxu.png"
               alt="PAYONEER"
-              class="img-fluid ml-5"
-              style={{ "max-width": "100px", height: "70px" }}
             />
           </div>
 
-          <div class="col">
+          <div className="col client-image">
             <img
               src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567878/hotels_tlb7wb.png"
               alt="HOTELS.NG"
-              class="img-fluid ml-5"
-              style={{ "max-width": "100px", height: "70px" }}
             />
           </div>
         </div>
       </div>
       <section>
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-sm justify-content-center mt-5">
+        <div className="container py-5">
+          <div className="row">
+            <div className="col-sm justify-content-center mt-5">
               <img
                 src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567682/IMG_1487_e2eapd.png"
                 alt="About-img"
-                class="img-fluid"
+                className="img-fluid"
                 style={{
                   "max-width": "387px",
                   "max-height": "360px",
@@ -97,16 +93,19 @@ const Home = () => {
               />
             </div>
 
-            <div class="col-sm text- mt-5">
-              <h2 class="font-weight-bold">About Us</h2>
-              <p class="font-weight-bold mt-4" style={{ "line-height": "2em" }}>
+            <div className="col-sm text- mt-5">
+              <h2 className="font-weight-bold">About Us</h2>
+              <p
+                className="font-weight-bold mt-4"
+                style={{ "line-height": "2em" }}
+              >
                 Crows is Link content mananagement Platform that helps
                 designers, developers and content creators build websites to
                 showcase their work and portfolio. this helps them get connected
                 to their target audience. Crow lets youstart, grow, and manage
                 your business, portfolio and pesrsonal growth.
               </p>
-              <Link to="" class="btn btn-success mt-5">
+              <Link to="" className="btn btn-success mt-5">
                 Get started
               </Link>
             </div>
@@ -115,13 +114,13 @@ const Home = () => {
       </section>
       <section>
         <div style={{ "background-color": "#bdd0bb", color: "#000" }}>
-          <div class="container py-5">
-            <h2 class="text-center font-weight-bold">How it works</h2>
+          <div className="container py-5">
+            <h2 className="text-center font-weight-bold">How it works</h2>
 
-            <div class="row row-cols-1 row-cols-lg-2 mt-5">
-              <div class="col text-center">
+            <div className="row row-cols-1 row-cols-lg-2 mt-5">
+              <div className="col text-center">
                 <div
-                  class="col-sm"
+                  className="col-sm"
                   style={{
                     "min-width": "453px",
                     "min-height": "281px",
@@ -131,15 +130,15 @@ const Home = () => {
                   <img
                     src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567677/IMG_1488_mcus2s.png"
                     alt="laptop-img"
-                    class="img-fluid"
+                    className="img-fluid"
                   />
                 </div>
               </div>
 
-              <div class="col">
-                <h6 class="mt-4 font-weight-bold">Pick Link Template</h6>
+              <div className="col">
+                <h6 className="mt-4 font-weight-bold">Pick Link Template</h6>
                 <p
-                  class="mt-3"
+                  className="mt-3"
                   style={{ width: "400px", "line-height": "1.2em" }}
                 >
                   Pick your template of choice based on the three different
@@ -148,11 +147,11 @@ const Home = () => {
                   writers
                 </p>
 
-                <h6 class="mt-4 font-weight-bold">
+                <h6 className="mt-4 font-weight-bold">
                   Customize with persosnal info
                 </h6>
                 <p
-                  class="mt-3"
+                  className="mt-3"
                   style={{ width: "400px", "line-height": "1.2em" }}
                 >
                   Start by naming your site and adding your personal
@@ -161,9 +160,11 @@ const Home = () => {
                   right data.
                 </p>
 
-                <h6 class="mt-4 font-weight-bold">Add link and Upload Image</h6>
+                <h6 className="mt-4 font-weight-bold">
+                  Add link and Upload Image
+                </h6>
                 <p
-                  class="mt-3"
+                  className="mt-3"
                   style={{ width: "400px", "line-height": "1.2em" }}
                 >
                   Here is where you include Link link to an external site.
@@ -171,17 +172,17 @@ const Home = () => {
                   your choice that suits the website you are trying to create
                 </p>
 
-                <h6 class="mt-4 font-weight-bold">Publish</h6>
+                <h6 className="mt-4 font-weight-bold">Publish</h6>
                 <p
-                  class="mt-3"
+                  className="mt-3"
                   style={{ width: "400px", "line-height": "1.2em" }}
                 >
                   The final phase where you preview details and publish your
                   site that have been built.
                 </p>
 
-                <div class="mt-5">
-                  <Link to="" class="btn btn-outline-success">
+                <div className="mt-5">
+                  <Link to="/products" className="btn btn-outline-success">
                     Browse templates
                   </Link>
                 </div>
@@ -191,17 +192,17 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div class="container py-5">
-          <div>
-            <h2 class="text-center font-weight-bold">Value we provided</h2>
+        <div className="container py-5">
+          <div className="client-heading">
+            <h2 className="text-center font-weight-bold">Value we provided</h2>
           </div>
 
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-3 g-3 mt-5">
-            <div class="col">
-              <div class="p-4 border bg-light">
-                <div class="text-center">
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-3 g-3 mt-5">
+            <div className="col value-container">
+              <div className="p-4 border bg-light">
+                <div className="text-center">
                   <div
-                    class="m-auto"
+                    className="m-auto"
                     style={{
                       "background-color": "#bdd0bb",
                       border: "1px solid #bdd0bb",
@@ -216,7 +217,7 @@ const Home = () => {
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-menu-button"
+                      className="fa fa-menu-button"
                       viewBox="0 0 16 16"
                     >
                       <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h8A1.5 1.5 0 0 1 11 1.5v2A1.5 1.5 0 0 1 9.5 5h-8A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-8z" />
@@ -224,9 +225,11 @@ const Home = () => {
                     </svg>
                   </div>
 
-                  <h3 class="font-weight-bold mt-3">Customizable templates</h3>
+                  <h3 className="font-weight-bold mt-3">
+                    Customizable templates
+                  </h3>
 
-                  <p class="mt-3">
+                  <p className="mt-3">
                     We help individuals and writers create pesonal websites
                     using customized templates
                   </p>
@@ -234,11 +237,11 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="col">
-              <div class="p-4 border bg-light">
-                <div class="text-center">
+            <div className="col value-container">
+              <div className="p-4 border bg-light">
+                <div className="text-center">
                   <div
-                    class="m-auto"
+                    className="m-auto"
                     style={{
                       "background-color": "#bdd0bb",
                       border: "1px solid #bdd0bb",
@@ -253,7 +256,7 @@ const Home = () => {
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-person-check"
+                      className="bi bi-person-check"
                       viewBox="0 0 16 16"
                     >
                       <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
@@ -261,9 +264,9 @@ const Home = () => {
                     </svg>
                   </div>
 
-                  <h3 class="font-weight-bold mt-3">Productivity</h3>
+                  <h3 className="font-weight-bold mt-3">Productivity</h3>
 
-                  <p class="mt-3">
+                  <p className="mt-3">
                     Crow will help you and your team to create and manage better
                     content.We boost effectiveness of your skill or contents
                     with our platform
@@ -272,11 +275,11 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="col">
-              <div class="p-4 border bg-light">
-                <div class="text-center">
+            <div className="col value-container">
+              <div className="p-4 border bg-light">
+                <div className="text-center">
                   <div
-                    class="m-auto"
+                    className="m-auto"
                     style={{
                       "background-color": "#bdd0bb",
                       border: "1px solid #bdd0bb",
@@ -291,7 +294,7 @@ const Home = () => {
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-emoji-smile"
+                      className="bi bi-emoji-smile"
                       viewBox="0 0 16 16"
                     >
                       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -299,9 +302,11 @@ const Home = () => {
                     </svg>
                   </div>
 
-                  <h3 class="font-weight-bold mt-3">Safety and efficiency</h3>
+                  <h3 className="font-weight-bold mt-3">
+                    Safety and efficiency
+                  </h3>
 
-                  <p class="mt-3">
+                  <p className="mt-3">
                     Millions of users trusts crow to manage their website. Our
                     tech team and customers services work 24/7 to provide
                     maximum safety for our users.
@@ -313,32 +318,32 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div class="container py-5">
-          <h2 class="text-center font-weight-bold">
+        <div className="container py-5 client-heading">
+          <h2 className="text-center font-weight-bold">
             See what our clients are saying
           </h2>
 
-          <div class="mt-4">
+          <div className="mt-4">
             <div
               id="carouselExampleControls"
-              class="carousel slide"
+              className="carousel slide"
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-sm mt-5">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="row">
+                    <div className="col-sm mt-5">
                       <img
                         src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670567679/IMG_1489_jtyek8.png"
-                        class="d-block img-fluid m-auto"
+                        className="d-block img-fluid m-auto"
                         alt="first_img"
                         style={{ width: "257px", height: "257px" }}
                       />
                     </div>
 
-                    <div class="col-sm mt-5">
+                    <div className="col-sm mt-5">
                       <div style={{ width: "350px" }}>
-                        <p class="font-weight-bold mt-4">
+                        <p className="font-weight-bold mt-4">
                           Crow is half the price and twice the speed. I looked
                           for a more reliable and flexible platform for creating
                           website for my contents, then i found Crow. ever since
@@ -354,28 +359,28 @@ const Home = () => {
                 </div>
               </div>
               <button
-                class="carousel-control-prev "
+                className="carousel-control-prev "
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Next</span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
           </div>

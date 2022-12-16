@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../Assets/Images/logo-dark.png";
 import dp from "../Assets/Images/Frame-1.png";
+
 const RegisteredUserNavbar = () => {
   return (
     <nav

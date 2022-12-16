@@ -11,7 +11,7 @@ const LeftSideBar = () => {
         <div className="list_item">
           <Link
             to="/Dashboard"
-            className="fw-bold list-group-item list-group-item-action py-2 ripple active"
+            className="fw-bold list-group-item list-group-item-action py-2 ripple "
           >
             <i className="fa-solid fa-house "></i>
             <span className="menu_listing">Home</span>
@@ -45,21 +45,21 @@ const LeftSideBar = () => {
             <span className="menu_listing">Insights</span>
           </Link>
           <Link
-            to="/UserWebsite"
+            to="#!"
             className=" list-group-item list-group-item-action py-2 ripple"
           >
             <i className="fa-solid fa-layer-group"></i>
             <span className="menu_listing">My Website</span>
           </Link>
           <Link
-            to="/Accounts"
+            to="/Dashboard/userAccount"
             className=" list-group-item list-group-item-action py-2 ripple"
           >
             <i className="fa-solid fa-user-tie"></i>
             <span className="menu_listing">Accounts</span>
           </Link>
           <Link
-            to="/Settings"
+            to="/Dashboard/settings"
             className=" list-group-item list-group-item-action py-2 ripple"
           >
             <i className="fa-solid fa-gear"></i>
