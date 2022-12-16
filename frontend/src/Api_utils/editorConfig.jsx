@@ -1,7 +1,7 @@
 import grapesjs from "grapesjs";
 import gjsBlockBasic from "grapesjs-blocks-basic";
 import $ from "jquery";
-import grapesjsBlockBootstrap from "grapesjs-blocks-bootstrap4";
+
 import grapesjsPluginExport from "grapesjs-plugin-export";
 import grapesjsStyleBg from "grapesjs-style-bg";
 
@@ -15,12 +15,8 @@ import {
   storageSetting,
   styleManager,
   styles,
-  toggleSidebar,
   traitManager,
 } from "./editorUtil";
-// import tailwindComponent from "../plugins/tailwind";
-// import swiperComponent from "../plugins/swiper";
-// import chartLibComponent from "../plugins/charts";
 
 const geditorConfig = (assets, pageId) => {
   $(".panel__devices").html("");
@@ -53,20 +49,11 @@ const geditorConfig = (assets, pageId) => {
       styles: styles,
       scripts: scripts,
     },
-    plugins: [
-      gjsBlockBasic,
-      //   grapesjsBlockBootstrap,
-      grapesjsPluginExport,
-      grapesjsStyleBg,
-    ],
+    plugins: [gjsBlockBasic, grapesjsPluginExport, grapesjsStyleBg],
     pluginsOpts: {
-      //   tailwindComponent: {},
       gjsBlockBasic: {},
-      //   swiperComponent: {},
-      //   grapesjsBlockBootstrap: {},
       grapesjsPluginExport: {},
       grapesjsStyleBg: {},
-      //   chartLibComponent: {},
     },
   });
 

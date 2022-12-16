@@ -13,10 +13,8 @@ const NewsLetter = () => {
             }}
             class="py-5"
           >
-            <div class="m-auto" style={{ "max-width": "500px" }}>
-              <h3 class="font-weight-bold mt-2">
-                Let us keep you updated always{" "}
-              </h3>
+            <div class="m-auto client-heading" style={{ "max-width": "500px" }}>
+              <h2 class="mt-2">Let us keep you updated always </h2>
               <p class="mt-4">
                 Subscribe to our newsletter to stay updated and notified about
                 our new product and services

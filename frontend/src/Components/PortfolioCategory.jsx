@@ -8,9 +8,7 @@ const PortfolioCategory = () => {
       <div className="main_content">
         <h2 className="all_temlates_heading">Choose portfolio template</h2>
         <div className="create_content">
-          <Link to="">
-            <p>Customize your own Template</p>
-          </Link>
+          <Link to="/editor">Customize your own Template</Link>
         </div>
         <div className="create_content">
           <h2 className="choose_template">Choose Templates</h2>

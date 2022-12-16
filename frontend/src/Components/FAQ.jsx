@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <>
       <section>
-        <div className="container py-5">
+        <div className="container py-5 client-heading">
           <h2 className="font-weight-bold text-center">
             Frequently Asked Questions
           </h2>
@@ -32,9 +32,10 @@ const FAQ = () => {
               >
                 <div className="accordion-body">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus ad totam quasi neque facilis, ducimus nulla vel at
-                    hic eaque.
+                    A website builder is a software that takes away the stress
+                    of having to build a website yourself from scratch.
+                    Platforms like ours help you with beautifully curated
+                    template that fit your needs or business needs.
                   </p>
                 </div>
               </div>
@@ -61,11 +62,7 @@ const FAQ = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus ad totam quasi neque facilis, ducimus nulla vel at
-                    hic eaque.
-                  </p>
+                  <p>No you don't. Just sign in and enjoy the experience.</p>
                 </div>
               </div>
             </div>
@@ -91,11 +88,7 @@ const FAQ = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus ad totam quasi neque facilis, ducimus nulla vel at
-                    hic eaque.
-                  </p>
+                  <p>Its super easy and fast.</p>
                 </div>
               </div>
             </div>
@@ -121,9 +114,7 @@ const FAQ = () => {
               >
                 <div className="accordion-body">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus ad totam quasi neque facilis, ducimus nulla vel at
-                    hic eaque.
+                    Yes our website is endowed with mobile responsive abilities.
                   </p>
                 </div>
               </div>
@@ -149,11 +140,7 @@ const FAQ = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus ad totam quasi neque facilis, ducimus nulla vel at
-                    hic eaque.
-                  </p>
+                  <p>For now CROW do not offer hosting services for free.</p>
                 </div>
               </div>
             </div>

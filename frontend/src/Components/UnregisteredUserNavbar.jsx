@@ -1,18 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import logo from "../Assets/Images/logo-dark.png";
 
 const UnregisteredUserNavbar = () => {
   return (
     <>
       <div className="container-fluid">
-        <nav className="navbar navbar-expand-lg navbar-light p-3">
-          <Link className="navbar-brand" href="#">
-            <img
-              src="https://res.cloudinary.com/dxqgshzri/image/upload/v1670568832/IMG_1486_-_Copy_th98gx.png"
-              alt="brand_logo"
-              className="img-fluid"
-              style={{ "max-width": "80px" }}
-            />
+        <nav className="navbar navbar-expand-lg navbar-light p-3 navigation position-fixed w-100">
+          <Link class="navbar-brand logo" to="#">
+            <img src={logo} height="50" alt="CROW Logo" />
           </Link>
           <button
             className="navbar-toggler"
@@ -28,46 +24,46 @@ const UnregisteredUserNavbar = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
-              <li className="nav-item active">
-                <Link to="/" className="nav-link" href="#">
+              <li className="nav-item">
+                <NavLink to="/" end className="nav-link">
                   Home
-                </Link>
+                </NavLink>
               </li>
-              <li className="nav-item active">
-                <Link className="nav-link" href="#">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/products">
                   Products
-                </Link>
+                </NavLink>
               </li>
 
-              <li className="nav-item active">
-                <Link className="nav-link" href="#">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="#">
                   Resources
-                </Link>
+                </NavLink>
               </li>
 
-              <li className="nav-item active">
-                <Link className="nav-link" href="#">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/documentation">
                   Documentation
-                </Link>
+                </NavLink>
               </li>
 
-              <li className="nav-item active">
-                <Link className="nav-link" href="#">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="#">
                   About Us
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <div>
-              <Link to="/onBoarding/signin">
+              <NavLink to="/onBoarding/signin">
                 <button type="button" className="btn btn-outline-success">
                   Login
                 </button>
-              </Link>
-              <Link to="/onBoarding">
+              </NavLink>
+              <NavLink to="/onBoarding">
                 <button type="submit" className="btn btn-success">
                   Sign up
                 </button>
-              </Link>
+              </NavLink>
             </div>
           </div>
         </nav>
