@@ -93,7 +93,19 @@ A platform that allows users spin up a basic website - allow as much customizati
 - [YouTube](https://www.youtube.com)
      - An Open Resources for all.
   
-## Contributors  
- ` Coming Soon...`
+## Contributors 
+ - Delphine002
+ - Faithboy1
+ - Evare08
+ - Mayonnaise2-art
+ - Makolly
+ - Ifeollu
+ - Uche1204
+ - Ototy
+ - Marvel-oreva
+ - Silverbeing
+ - Damtob
+ - Halfboyfriend
+ - Samskoncept
 
 ## Acknowledgments
