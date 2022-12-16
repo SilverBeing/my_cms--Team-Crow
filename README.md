@@ -63,7 +63,7 @@ A platform that allows users spin up a basic website - allow as much customizati
  ![](./) 
   
  ### Links 
-- Live Site URL: [live site is coming soon.](https://google.com) 
+- Live Site URL:https://my-cms-team-crow-b16r.vercel.app/ 
   
  ## Process  
   - Product Designers
