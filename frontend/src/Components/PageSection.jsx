@@ -5,7 +5,7 @@ const PageSection = () => {
   const [show, setShow] = useState(false);
   const [name, setName] = useState("");
   const [isValid, setIsValid] = useState(true);
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   const handleSubmit = async () => {
     if (!name) {

@@ -6,7 +6,7 @@ import blogImage3 from "../Assets/Images/blog-image-3.png";
 import frame1 from "../Assets/Images/Frame-1.png";
 
 const Insight = () => {
-  const [graph, setgraph] = useState({
+  const [graph] = useState({
     series: [
       {
         name: "Views",

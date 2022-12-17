@@ -1,7 +1,5 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-
-import Footer from "../Components/Footer";
 import LeftSideBar from "../Components/LeftSideBar";
 import RegisteredUserNavbar from "../Components/RegisteredUserNavbar";
 
