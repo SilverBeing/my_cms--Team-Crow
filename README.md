@@ -63,7 +63,7 @@ A platform that allows users spin up a basic website - allow as much customizati
  ![](./) 
   
  ### Links 
-- Live Site URL: [live site is coming soon.](https://google.com) 
+- Live Site URL:https://my-cms-team-crow-b16r.vercel.app/ 
   
  ## Process  
   - Product Designers
@@ -93,7 +93,31 @@ A platform that allows users spin up a basic website - allow as much customizati
 - [YouTube](https://www.youtube.com)
      - An Open Resources for all.
   
-## Contributors  
- ` Coming Soon...`
+## Contributors
+
+<details><summary>Developers</summary>
+
+- [@Halfboyfriend](https://www.github.com/Halfboyfriend)
+- [@Silverbeing](https://www.github.com/Silverbeing)
+- [@Damtob](https://www.github.com/Damtob)
+- [@Samskoncept](https://www.github.com/Samskoncept)
+
+
+</details>
+
+<details><summary>Product Designers</summary>
+
+- [@Delphine002](https://www.github.com/Delphine002)
+- [@Faithboy1](https://www.github.com/Faithboy1)
+- [@Evare08](https://www.github.com/Evare08)
+- [@Mayonnaise2-art](https://www.github.com/Mayonnaise2-art)
+- [@Makolly](https://www.github.com/Makolly)
+- [@Ifeollu](https://www.github.com/Ifeollu)
+- [@Uche1204](https://github.com/Uche1204)
+- [@Ototy](https://www.github.com/Ototy)
+- [@Marvel-oreva](https://www.github.com/Marvel-oreva)
+
+</details>
+
 
 ## Acknowledgments
