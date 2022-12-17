@@ -9,14 +9,14 @@ import PageSection from "../Components/PageSection";
 import RegisteredUserNavbar from "../Components/RegisteredUserNavbar";
 
 const Editor = () => {
-  const [editor, setEditor] = useState(null);
-  const [assets, setAssets] = useState([]);
+  const [setEditor] = useState(null);
+  const [assets] = useState([]);
   const { pageId } = useParams();
 
   useEffect(() => {
     const editor = geditorConfig(assets, pageId);
     setEditor(editor);
-  }, []);
+  });
   return (
     <div className="Editor">
       <RegisteredUserNavbar />
