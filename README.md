@@ -64,6 +64,9 @@ A platform that allows users spin up a basic website - allow as much customizati
   
  ### Links 
 - Live Site URL:https://my-cms-team-crow-b16r.vercel.app/ 
+
+##Update
+- Due to backend inadequacies we had to remove the restrictions of authetications. 
   
  ## Process  
   - Product Designers
