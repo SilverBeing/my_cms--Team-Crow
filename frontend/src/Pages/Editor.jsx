@@ -9,7 +9,7 @@ import PageSection from "../Components/PageSection";
 import RegisteredUserNavbar from "../Components/RegisteredUserNavbar";
 
 const Editor = () => {
-  const [setEditor] = useState(null);
+  const [editor, setEditor] = useState(null);
   const [assets] = useState([]);
   const { pageId } = useParams();
 
