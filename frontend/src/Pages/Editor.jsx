@@ -16,7 +16,7 @@ const Editor = () => {
   useEffect(() => {
     const editor = geditorConfig(assets, pageId);
     setEditor(editor);
-  });
+  }, []);
   return (
     <div className="Editor">
       <RegisteredUserNavbar />
