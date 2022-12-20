@@ -17,9 +17,9 @@ const SignIn = () => {
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
 
-  useEffect(() => {
-    emailRef.current.focus();
-  }, []);
+//   useEffect(() => {
+//     emailRef.current.focus();
+//   }, []);
 
   useEffect(() => {
     setErrMsg("");
@@ -59,7 +59,7 @@ const SignIn = () => {
 
   return (
     <>
-      {success ? (
+      {!success ? (
         <LoginSuccess />
       ) : (
         <div className="signin-container">
