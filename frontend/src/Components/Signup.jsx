@@ -19,9 +19,9 @@ const Signup = () => {
   const [errMsg, setErrMsg] = useState("");
   const [success, setSuccess] = useState(false);
 
-  useEffect(() => {
-    userRef.current.focus();
-  }, []);
+//   useEffect(() => {
+//     userRef.current.focus();
+//   }, []);
   useEffect(() => {
     setValidMatch(password === confirmPassword);
   }, [password, confirmPassword]);
@@ -74,7 +74,7 @@ const Signup = () => {
   };
   return (
     <>
-      {success ? (
+      {!success ? (
         <RegistrationSuccess />
       ) : (
         <div className="signup-container">
